@@ -1,0 +1,132 @@
+body {
+    margin: 0
+}
+
+header,
+main {
+    background-color: burlywood;
+
+}
+
+#boiteClown {
+
+    border: 2px solid black;
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+}
+
+#boiteClown img {
+    width: 10%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transition: none;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: brown;
+    padding: 10px;
+    margin: 0;
+}
+
+.core {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+#score {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+#bestScore {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.choiceDif {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.choiceDif p {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(171, 56, 11);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.reiScore {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(171, 56, 11);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#tim {
+
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hidden{
+
+    display: none;
+}
+
+main {
+    position: relative;
+}
+
+#ecranFin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform:translate(-50% , -50%);
+    
+    width: 60%;
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+}
+#ecranFin p {
+    text-align: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
